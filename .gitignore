@@ -1,0 +1,26 @@
+.env
+.env.*
+!.env.example
+.streamlit/secrets.toml
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+*.db
+*.sqlite
+*.sqlite3
+*.db-wal
+*.db-shm
+*.db-journal
+*.log
+*.tmp
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Local inspection reports
+preprocessing_inspection.txt
+recommendation_output.txt
